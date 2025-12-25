@@ -219,6 +219,7 @@ jobs:
           dexcom_upload_readings \
           no_auth \
           meal_days \
+          watch_title \
           live_activity
 
           # the final customization listed above CANNOT have a continuation character
