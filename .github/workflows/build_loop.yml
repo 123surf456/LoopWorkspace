@@ -218,7 +218,6 @@ jobs:
           https://raw.githubusercontent.com/loopandlearn/lnl-scripts/main/CustomizationSelect.sh)" \
           no_auth \
           meal_days \
-          watch_title \
           negative_insulin \
           now_line
 
