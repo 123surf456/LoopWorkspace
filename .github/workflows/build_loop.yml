@@ -220,7 +220,8 @@ jobs:
           no_auth \
           meal_days \
           watch_title \
-          live_activity
+          negative_insulin \
+          now_line
 
           # the final customization listed above CANNOT have a continuation character
           # more customizations can be pasted after this line
