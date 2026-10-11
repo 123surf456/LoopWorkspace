@@ -235,6 +235,19 @@ jobs:
           # Several patches may be added per submodule.
           # Adding comments (#) may be useful to easily tell the individual patches apart.
 
+      # Apply Loop and Learn customizations
+      - name: Apply Loop Customizations
+        run: |
+          # Customizations: now_line, cgm_sensor_notes, meal_days, no_auth
+          /bin/bash -c "$(curl -fsSL \
+          https://raw.githubusercontent.com/loopandlearn/lnl-scripts/main/CustomizationSelect.sh)" \
+          now_line \
+          cgm_sensor_notes \
+          meal_days \
+          negative_insulin \
+          no_auth
+
+
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
         run: |
